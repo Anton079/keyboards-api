@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "EQ7H/nXMwtXSpZGziJ5DZhobWus/bhLzUDL45DWxuzE=",
+  "Source": "keyboards-api",
+  "BasePath": "_content/keyboards-api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
