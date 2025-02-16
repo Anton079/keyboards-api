@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\mycode\\asp.net\\keyboards-api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{34A49881-BC31-418E-B606-BCE49BE30995}|keyboards-api\\keyboards-api.csproj|c:\\mycode\\asp.net\\keyboards-api\\keyboards-api\\data\\migrations\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34A49881-BC31-418E-B606-BCE49BE30995}|keyboards-api\\keyboards-api.csproj|solutionrelative:keyboards-api\\data\\migrations\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{34A49881-BC31-418E-B606-BCE49BE30995}|keyboards-api\\keyboards-api.csproj|c:\\mycode\\asp.net\\keyboards-api\\keyboards-api\\data\\migrations\\createschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34A49881-BC31-418E-B606-BCE49BE30995}|keyboards-api\\keyboards-api.csproj|solutionrelative:keyboards-api\\data\\migrations\\createschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,20 +19,16 @@
       "RelativeMoniker": "D:0:0:{34A49881-BC31-418E-B606-BCE49BE30995}|keyboards-api\\keyboards-api.csproj|solutionrelative:keyboards-api\\keyboards\\repostiory\\ikeyboardrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{34A49881-BC31-418E-B606-BCE49BE30995}|keyboards-api\\keyboards-api.csproj|c:\\mycode\\asp.net\\keyboards-api\\keyboards-api\\keyboards\\models\\keyboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34A49881-BC31-418E-B606-BCE49BE30995}|keyboards-api\\keyboards-api.csproj|solutionrelative:keyboards-api\\keyboards\\models\\keyboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{34A49881-BC31-418E-B606-BCE49BE30995}|keyboards-api\\keyboards-api.csproj|c:\\mycode\\asp.net\\keyboards-api\\keyboards-api\\keyboards\\controllers\\keyboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34A49881-BC31-418E-B606-BCE49BE30995}|keyboards-api\\keyboards-api.csproj|solutionrelative:keyboards-api\\keyboards\\controllers\\keyboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34A49881-BC31-418E-B606-BCE49BE30995}|keyboards-api\\keyboards-api.csproj|c:\\mycode\\asp.net\\keyboards-api\\keyboards-api\\data\\migrations\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34A49881-BC31-418E-B606-BCE49BE30995}|keyboards-api\\keyboards-api.csproj|solutionrelative:keyboards-api\\data\\migrations\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{34A49881-BC31-418E-B606-BCE49BE30995}|keyboards-api\\keyboards-api.csproj|c:\\mycode\\asp.net\\keyboards-api\\keyboards-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34A49881-BC31-418E-B606-BCE49BE30995}|keyboards-api\\keyboards-api.csproj|solutionrelative:keyboards-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34A49881-BC31-418E-B606-BCE49BE30995}|keyboards-api\\keyboards-api.csproj|c:\\mycode\\asp.net\\keyboards-api\\keyboards-api\\keyboards\\models\\keyboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34A49881-BC31-418E-B606-BCE49BE30995}|keyboards-api\\keyboards-api.csproj|solutionrelative:keyboards-api\\keyboards\\models\\keyboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34A49881-BC31-418E-B606-BCE49BE30995}|keyboards-api\\keyboards-api.csproj|c:\\mycode\\asp.net\\keyboards-api\\keyboards-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -46,11 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 235,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "KeyboardController.cs",
               "DocumentMoniker": "C:\\mycode\\asp.net\\keyboards-api\\keyboards-api\\Keyboards\\Controllers\\KeyboardController.cs",
               "RelativeDocumentMoniker": "keyboards-api\\Keyboards\\Controllers\\KeyboardController.cs",
@@ -58,12 +58,11 @@
               "RelativeToolTip": "keyboards-api\\Keyboards\\Controllers\\KeyboardController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T16:46:16.796Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-15T16:46:16.796Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IKeyboardRepo.cs",
               "DocumentMoniker": "C:\\mycode\\asp.net\\keyboards-api\\keyboards-api\\Keyboards\\Repostiory\\IKeyboardRepo.cs",
               "RelativeDocumentMoniker": "keyboards-api\\Keyboards\\Repostiory\\IKeyboardRepo.cs",
@@ -71,12 +70,11 @@
               "RelativeToolTip": "keyboards-api\\Keyboards\\Repostiory\\IKeyboardRepo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T16:45:05.23Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-15T16:45:05.23Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "KeyboardRepo.cs",
               "DocumentMoniker": "C:\\mycode\\asp.net\\keyboards-api\\keyboards-api\\Keyboards\\Repostiory\\KeyboardRepo.cs",
               "RelativeDocumentMoniker": "keyboards-api\\Keyboards\\Repostiory\\KeyboardRepo.cs",
@@ -84,8 +82,7 @@
               "RelativeToolTip": "keyboards-api\\Keyboards\\Repostiory\\KeyboardRepo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T16:44:56.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-15T16:44:56.876Z"
             },
             {
               "$type": "Document",
@@ -97,12 +94,11 @@
               "RelativeToolTip": "keyboards-api\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-15T16:38:12.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-15T16:38:12.826Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\mycode\\asp.net\\keyboards-api\\keyboards-api\\Program.cs",
               "RelativeDocumentMoniker": "keyboards-api\\Program.cs",
@@ -110,25 +106,23 @@
               "RelativeToolTip": "keyboards-api\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T16:37:43.4Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-15T16:37:43.4Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "keyboards-api",
+              "Title": "keyboards-api.csproj",
               "DocumentMoniker": "C:\\mycode\\asp.net\\keyboards-api\\keyboards-api\\keyboards-api.csproj",
               "RelativeDocumentMoniker": "keyboards-api\\keyboards-api.csproj",
               "ToolTip": "C:\\mycode\\asp.net\\keyboards-api\\keyboards-api\\keyboards-api.csproj",
               "RelativeToolTip": "keyboards-api\\keyboards-api.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-15T16:37:38.407Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-15T16:37:38.407Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Keyboard.cs",
               "DocumentMoniker": "C:\\mycode\\asp.net\\keyboards-api\\keyboards-api\\Keyboards\\Models\\Keyboard.cs",
               "RelativeDocumentMoniker": "keyboards-api\\Keyboards\\Models\\Keyboard.cs",
@@ -136,25 +130,24 @@
               "RelativeToolTip": "keyboards-api\\Keyboards\\Models\\Keyboard.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T16:37:10.586Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-15T16:37:10.586Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\mycode\\asp.net\\keyboards-api\\keyboards-api\\Data\\Migrations\\AppDbContext.cs",
               "RelativeDocumentMoniker": "keyboards-api\\Data\\Migrations\\AppDbContext.cs",
               "ToolTip": "C:\\mycode\\asp.net\\keyboards-api\\keyboards-api\\Data\\Migrations\\AppDbContext.cs",
               "RelativeToolTip": "keyboards-api\\Data\\Migrations\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-15T16:36:23.692Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CreateSchema.cs",
               "DocumentMoniker": "C:\\mycode\\asp.net\\keyboards-api\\keyboards-api\\Data\\Migrations\\CreateSchema.cs",
               "RelativeDocumentMoniker": "keyboards-api\\Data\\Migrations\\CreateSchema.cs",
@@ -162,8 +155,7 @@
               "RelativeToolTip": "keyboards-api\\Data\\Migrations\\CreateSchema.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T16:35:55.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-15T16:35:55.553Z"
             }
           ]
         }

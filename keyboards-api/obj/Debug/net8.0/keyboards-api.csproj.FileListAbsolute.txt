@@ -97,3 +97,4 @@ C:\mycode\asp.net\keyboards-api\keyboards-api\obj\Debug\net8.0\refint\keyboards-
 C:\mycode\asp.net\keyboards-api\keyboards-api\obj\Debug\net8.0\keyboards-api.pdb
 C:\mycode\asp.net\keyboards-api\keyboards-api\obj\Debug\net8.0\keyboards-api.genruntimeconfig.cache
 C:\mycode\asp.net\keyboards-api\keyboards-api\obj\Debug\net8.0\ref\keyboards-api.dll
+C:\mycode\asp.net\keyboards-api\keyboards-api\obj\Debug\net8.0\keyboards-api.sourcelink.json
