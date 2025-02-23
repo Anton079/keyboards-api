@@ -1,4 +1,5 @@
-﻿using keyboards_api.Keyboards.Models;
+﻿using keyboards_api.Keyboards.Dtos;
+using keyboards_api.Keyboards.Models;
 using keyboards_api.Keyboards.Repostiory;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,13 +16,22 @@ namespace keyboards_api.Keyboards.Controllers
             _keyboardRepo = keyboardRepo;
         }
 
-        [HttpGet]
+        [HttpGet("allKeyboard")]
 
         public async Task<ActionResult<List<Keyboard>>> GetKeyboardAsync()
         {
             var keyboard = await _keyboardRepo.GetKeyboardsAsync();
 
             return Ok(keyboard);
+        }
+
+        [HttpPost("addKeyboard")]
+
+        public async Task<ActionResult<KeyboardResponse>> CreateAsync ([FromBody] KeyboardRequest keyboardReq)
+        {
+            KeyboardResponse keyboardSaved = await _keyboardRepo.CreateKeyboardAsync(keyboardReq);
+
+            return Ok(keyboardSaved);
         }
     }
 }

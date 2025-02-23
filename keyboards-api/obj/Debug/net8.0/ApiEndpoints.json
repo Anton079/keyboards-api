@@ -1,8 +1,34 @@
 [
   {
     "ContainingType": "keyboards_api.Keyboards.Controllers.KeyboardController",
+    "Method": "CreateAsync",
+    "RelativePath": "api/v1/Keyboard/addKeyboard",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "keyboardReq",
+        "Type": "keyboards_api.Keyboards.Dtos.KeyboardRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "keyboards_api.Keyboards.Dtos.KeyboardResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "keyboards_api.Keyboards.Controllers.KeyboardController",
     "Method": "GetKeyboardAsync",
-    "RelativePath": "api/v1/Keyboard",
+    "RelativePath": "api/v1/Keyboard/allKeyboard",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
