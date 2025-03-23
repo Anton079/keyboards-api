@@ -7,6 +7,18 @@ namespace keyboards_api.Keyboards.Repostiory
     {
         Task<List<Keyboard>> GetKeyboardsAsync();
 
-        Task<KeyboardResponse> CreateKeyboardAsync(KeyboardRequest keyboardReq);
+        Task<KeyboardResponse> CreateKeyboardAsync(AddKeyboardRequest keyboardReq);
+
+        Task<List<Keyboard>> GetMinPrice(int min);
+
+        Task<List<Keyboard>> GetMinMaxPrice(int min, int max);
+
+        Task<KeyboardResponse> UpdateKeyboard(int id, EditKeyboardRequest keyboardRequest);
+
+        Task<KeyboardResponse> DeleteKeyboardById(int id);
+
+        Task<KeyboardResponse> FindKeyboardById(int id);
+
+        Task<bool> IsKeyboardExist(AddKeyboardRequest reqKeyboard);
     }
 }

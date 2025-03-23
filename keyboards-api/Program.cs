@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using FluentMigrator.Runner;
 using keyboards_api.Data.Migrations;
 using keyboards_api.Keyboards.Repostiory;
+using keyboards_api.Keyboards.service;
 
 public class Program
 {
@@ -28,6 +29,9 @@ public class Program
         new MySqlServerVersion(new Version(8, 0, 21))));
 
         builder.Services.AddScoped<IKeyboardRepo, KeyboardRepo>();
+        builder.Services.AddScoped<IKeyboardCommandService, KeyboardCommandService>();
+        builder.Services.AddScoped<IKeyboardQueryService, KeyboardQueryService>();
+
 
         builder.Services.AddFluentMigratorCore()
             .ConfigureRunner(rb => rb.AddMySql5()

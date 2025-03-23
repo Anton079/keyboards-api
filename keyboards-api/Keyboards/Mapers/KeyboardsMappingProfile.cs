@@ -8,7 +8,8 @@ namespace keyboards_api.Keyboards.Mapers
     {
         public KeyboardsMappingProfile()
         {
-            CreateMap<KeyboardRequest, Keyboard>();
+            CreateMap<EditKeyboardRequest, Keyboard>();
+            CreateMap<AddKeyboardRequest, Keyboard>();
             CreateMap<Keyboard, KeyboardResponse>();
         }
     }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("keyboards-api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7883c893d5ba41d659a582a3390d3d8c5ecd0fb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b663fb921c5e05161137ca2dd32ce20755d78282")]
 [assembly: System.Reflection.AssemblyProductAttribute("keyboards-api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("keyboards-api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

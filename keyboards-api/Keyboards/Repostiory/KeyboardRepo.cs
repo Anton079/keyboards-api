@@ -22,7 +22,7 @@ namespace keyboards_api.Keyboards.Repostiory
             return await _appDbContext.Keyboards.ToListAsync();
         }
 
-        public async Task<KeyboardResponse> CreateKeyboardAsync(KeyboardRequest keyboardReq)
+        public async Task<KeyboardResponse> CreateKeyboardAsync(AddKeyboardRequest keyboardReq)
         {
             Keyboard keyboard = _mapper.Map<Keyboard>(keyboardReq);
 
@@ -34,5 +34,62 @@ namespace keyboards_api.Keyboards.Repostiory
 
             return response;
         }
+
+        public async Task<List<Keyboard>> GetMinPrice(int min)
+        {
+            return await _appDbContext.Keyboards.Where(keyboard => keyboard.Price > min).ToListAsync();
+        }
+
+        public async Task<List<Keyboard>> GetMinMaxPrice(int min, int max)
+        {
+            return await _appDbContext.Keyboards.Where(keyboard => keyboard.Price > min && keyboard.Price < max).ToListAsync();
+        }
+
+        public async Task<KeyboardResponse> DeleteKeyboardById(int id)
+        {
+            var keyboard = await _appDbContext.Keyboards.FindAsync(id);
+
+            KeyboardResponse keyboardResponse = _mapper.Map<KeyboardResponse>(keyboard);
+
+            _appDbContext.Keyboards.Remove(keyboard);
+
+            await _appDbContext.SaveChangesAsync();
+
+            return keyboardResponse;
+        }
+
+        public async Task<KeyboardResponse> UpdateKeyboard(int id, EditKeyboardRequest keyboardRequest)
+        {
+            var keyboard = await _appDbContext.Keyboards.FindAsync(id);
+
+
+            keyboard.Type = keyboardRequest.Type ?? keyboard.Type;
+            keyboard.model = keyboardRequest.Model ?? keyboard.model;
+            keyboard.Price = keyboardRequest.Price ?? keyboard.Price;
+
+            _appDbContext.Keyboards.Update(keyboard);
+            await _appDbContext.SaveChangesAsync();
+
+            return _mapper.Map<KeyboardResponse>(keyboard);
+
+
+        }
+
+        public async Task<KeyboardResponse> FindKeyboardById(int id)
+        {
+            var keyboard = await _appDbContext.Keyboards.FindAsync(id);
+
+            if(keyboard == null) { return null; }
+
+            return _mapper.Map<KeyboardResponse>(keyboard);
+        }
+
+        public async Task<bool> IsKeyboardExist(AddKeyboardRequest reqKeyboard)
+        {
+            return await _appDbContext.Keyboards.AnyAsync(c => c.model == reqKeyboard.Model &&
+                                                               c.Type == reqKeyboard.Type);
+    
+        }
+
     }
 }
